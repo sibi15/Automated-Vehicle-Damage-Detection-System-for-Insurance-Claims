@@ -1,0 +1,10 @@
+Model,Accuracy,Precision,Recall
+Resnet_stage1_baseline,0.935,0.931,0.939
+Resnet_stage2_baseline,0.737,0.747,0.734
+Resnet_stage3_baseline,0.678,0.683,0.664
+Resnet_stage1 FC,0.937,0.921,0.957
+Resnet_stage2 FC,0.721,0.730,0.715
+Resnet_stage3 FC,0.661,0.643,0.648
+Resnet_stage1 all,0.948,0.930,0.970
+Resnet_stage2 all,0.715,0.712,0.716
+Resnet_stage3 all,0.643,0.642,0.637
