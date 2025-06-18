@@ -1,3 +1,17 @@
-# ML-Vehicle-Damage-Detection-System-for-Insurance-Claims
-Done under my intership as a Data Science and Machine Learning Project Intern at Common Sense Software Solutions.
-The project uses machine learning to streamline the process of identifying and assessing vehicle damage for insurance claims. By analysing images of damaged vehicles, the system automatically detects and classifies various types of damage, such as dents, scratches, or broken parts. The tool enhances the claims process by providing fast, accurate damage assessments before human intervention. This system integrates seamlessly with existing insurance platforms, improving operational efficiency and reducing the time and cost of manual damage inspections. The machine learning models, including CNNs, are trained to ensure high accuracy and reliability, providing insurers with a more efficient and automated solution for handling vehicle claims. The highest accuracy from the model training was 93.7%.
+# Automated Vehicle Damage Detection System for Insurance Claims
+In this project, I developed a machine learning system to automate vehicle damage detection using image data. Designed during an internship with Common Sense Software Solutions, the system leverages deep learning to streamline insurance claim evaluations by classifying damage types and improving assessment speed and reliability.
+
+Key Features:
+- Applied Convolutional Neural Networks (CNNs) for image-based classification of vehicle damage
+- Processed input images to identify dents, scratches, and broken components using TensorFlow and OpenCV
+- Integrated techniques from Scikit-learn and Keras for model training, validation, and calibration
+- Achieved a model accuracy of 93.7% on real-world datasets, validating its applicability for insurers
+- Aimed to reduce manual labor, costs, and human error in claim processing pipelines
+
+Libraries & Frameworks:
+- Python, TensorFlow, Keras, OpenCV, Scikit-learn, Pandas, NumPy, Seaborn, Matplotlib
+- Algorithms: CNN, Logistic Regression, SVM, CalibratedClassifierCV
+- Tools: ImageDataGenerator, ModelCheckpoint, EarlyStopping, Confusion Matrix, Precision/Recall Metrics
+
+Use Case:
+The model enables insurers to automate claim initiation by identifying damage types and assessing severity. This speeds up the process, minimizes manual inspection time, and helps in building trust with policyholders by increasing objectivity and response time.
